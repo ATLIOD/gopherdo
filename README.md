@@ -26,6 +26,8 @@ GopherDo is a simple, lightweight task management application built with Go and 
 
 ## Installation
 
+### Option 1: Build from Source
+
 1. Clone the repository:
 
 ```bash
@@ -40,6 +42,32 @@ make build
 ```
 
 This will create a `build` directory containing the executable and static files.
+
+### Option 2: Pre-built Releases
+
+Download the appropriate zip file for your operating system:
+
+- Windows: `gopherdo-windows.zip`
+
+    - Extract and run `gopherdo.exe`
+    - Static files are included in the `static` directory
+
+- Linux: `gopherdo-linux.zip`
+
+    - Extract and run `gopherdo`
+    - Make sure to set executable permissions: `chmod +x gopherdo`
+    - Static files are included in the `static` directory
+
+- macOS: `gopherdo-mac.zip`
+    - Extract and run `gopherdo`
+    - Make sure to set executable permissions: `chmod +x gopherdo`
+    - Static files are included in the `static` directory
+
+Each release package contains:
+
+- The GopherDo executable
+- A `static` directory with the web interface files
+- Any saved tasks will be stored in `saved_tasks.json` in the same directory as the executable
 
 ## Running the Application
 
