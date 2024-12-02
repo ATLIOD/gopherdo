@@ -197,14 +197,13 @@ make build-mac
 
 ```bash
 make dist
->>>>>>> 9e616a7e2c4b84aca484aff2569f7f63e87cd186
+
 ```
 
 ## API Endpoints
 
 - `GET /tasks` - Retrieve all tasks
 - `POST /tasks` - Create a new task
-<<<<<<< HEAD
 - `PATCH /tasks/complete` - Mark a task as complete
 - `DELETE /tasks/delete` - Delete a task
 
