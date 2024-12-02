@@ -1,3 +1,5 @@
-build/
-saved_tasks.json
+structure.txt
+/data/*.db
+/build/
+.DS_Store
 *.exe
