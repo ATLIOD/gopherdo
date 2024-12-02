@@ -9,8 +9,8 @@ import (
 )
 
 var (
-	Version   = "dev"
-	BuildTime = "unknown"
+	Version   = "v2.0.0"
+	BuildTime = "12/01/2024 22:37"
 )
 
 func main() {
@@ -29,13 +29,13 @@ func main() {
 	h := handler.NewHandler(db)
 
 	// Check for updates
-    release, err := update.CheckForUpdates(Version)
-    if err != nil {
-        log.Printf("Failed to check for updates: %v", err)
-    } else if release != nil {
-        log.Printf("New version available: %s\nDownload at: %s",
-            release.Version, release.URL)
-    }
+	release, err := update.CheckForUpdates(Version)
+	if err != nil {
+		log.Printf("Failed to check for updates: %v", err)
+	} else if release != nil {
+		log.Printf("New version available: %s\nDownload at: %s",
+			release.Version, release.URL)
+	}
 
 	// Start server
 	log.Printf("Starting server on port %s", cfg.Port)
