@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 26f27c23a23be6c6771c8e96add32a2d2a09fb04
 # GopherDo Task Manager
 
 A simple, efficient task management application built with Go and vanilla JavaScript.
@@ -245,4 +248,8 @@ This project is licensed under the GPL-3.0 license - see the LICENSE file for de
 ## Author
 
 ATLIOD
+<<<<<<< HEAD
 >>>>>>> 9e616a7e2c4b84aca484aff2569f7f63e87cd186
+=======
+
+>>>>>>> 26f27c23a23be6c6771c8e96add32a2d2a09fb04
